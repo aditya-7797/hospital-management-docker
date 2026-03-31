@@ -1,0 +1,14 @@
+{
+  "name": "healthcare-management-app",
+  "version": "1.0.0",
+  "description": "Healthcare Management System with React Frontend and Node.js Backend",
+  "scripts": {
+    "dev": "docker-compose up --build",
+    "start": "docker-compose up",
+    "stop": "docker-compose down",
+    "clean": "docker-compose down -v --remove-orphans"
+  },
+  "keywords": ["healthcare", "react", "nodejs", "docker"],
+  "author": "YourName",
+  "license": "MIT"
+}
